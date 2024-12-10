@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "PostgreSQL Practice",
+            "database": "practice_db",
+            "username": "postgres",
+            "password": "root"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+1. Retrieve all records from the employees table 
+Answer :
+    Select * From employees;
+
+2. Display only the first_name, last_name, and department columns 
+Answer :
+    SELECT first_name, last_name department FROM employees;
+
+
+3. Retrieve employees who earn more than $70,000
+Answer : 
+      SELECT * FROM employees WHERE salary > 70000;
+
+4. Find employees hired after January 1, 2020.
+Answer : 
+    SELECT * FROM employees WHERE hire_date > '2020-01-01'; 
+
+5. Count the total number of employees in the company.
+Answer : 
+    SELECT count(*) AS total_emp from employees 
+
+6. List all unique job titles in the company.
+Answer : 
+    SELECT DISTINCT job_title AS Titles FROM employees;
+
+7. Retrieve employees from the "Engineering" department.
+Answer :
+    SELECT * from employees WHERE department = 'Engineering' 
